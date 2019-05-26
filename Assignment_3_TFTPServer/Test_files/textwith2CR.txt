@@ -1,0 +1,3 @@
+There are differences in UDP and TCP programming. Recall that UDP is a connectionless, unreliable, datagram protocol.
+Instead, the UDP client just sends a datagram to the server using the sendto() function (described below), which requires the address of the destination (IP address and port number) as a parameter.
+Similarly, the UDP server does not issue a listen() or an accept().
